@@ -1,0 +1,4 @@
+name: DeliveryEnv
+actions: ["pick", "move", "deliver"]
+states: ["START", "PICKED", "ON_THE_WAY", "DELIVERED"]
+reward_range: [-5, 1]
